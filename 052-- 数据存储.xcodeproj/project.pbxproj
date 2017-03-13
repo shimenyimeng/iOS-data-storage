@@ -15,6 +15,8 @@
 		D9B443451E76E336009256BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B443431E76E336009256BA /* LaunchScreen.storyboard */; };
 		D9B443501E76E336009256BA /* _52_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4434F1E76E336009256BA /* _52_______Tests.m */; };
 		D9B4435B1E76E336009256BA /* _52_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B4435A1E76E336009256BA /* _52_______UITests.m */; };
+		D9B4436A1E76E615009256BA /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B443691E76E615009256BA /* Student.m */; };
+		D9B4436D1E76F38B009256BA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B4436C1E76F38B009256BA /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		D9B443561E76E336009256BA /* 052-- 数据存储UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "052-- 数据存储UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B4435A1E76E336009256BA /* _52_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_52_______UITests.m"; sourceTree = "<group>"; };
 		D9B4435C1E76E336009256BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B443681E76E615009256BA /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		D9B443691E76E615009256BA /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		D9B4436C1E76F38B009256BA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B4436D1E76F38B009256BA /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				D9B4434E1E76E336009256BA /* 052-- 数据存储Tests */,
 				D9B443591E76E336009256BA /* 052-- 数据存储UITests */,
 				D9B443331E76E336009256BA /* Products */,
+				D9B4436B1E76F38B009256BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +112,8 @@
 				D9B443391E76E336009256BA /* AppDelegate.m */,
 				D9B4433B1E76E336009256BA /* ViewController.h */,
 				D9B4433C1E76E336009256BA /* ViewController.m */,
+				D9B443681E76E615009256BA /* Student.h */,
+				D9B443691E76E615009256BA /* Student.m */,
 				D9B4433E1E76E336009256BA /* Main.storyboard */,
 				D9B443411E76E336009256BA /* Assets.xcassets */,
 				D9B443431E76E336009256BA /* LaunchScreen.storyboard */,
@@ -138,6 +147,14 @@
 				D9B4435C1E76E336009256BA /* Info.plist */,
 			);
 			path = "052-- 数据存储UITests";
+			sourceTree = "<group>";
+		};
+		D9B4436B1E76F38B009256BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4436C1E76F38B009256BA /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +293,7 @@
 				D9B4433D1E76E336009256BA /* ViewController.m in Sources */,
 				D9B4433A1E76E336009256BA /* AppDelegate.m in Sources */,
 				D9B443371E76E336009256BA /* main.m in Sources */,
+				D9B4436A1E76E615009256BA /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
